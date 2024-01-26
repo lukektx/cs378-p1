@@ -4,10 +4,11 @@ body{
 }
 
 img {
-    max-width: 100%;
-    aspect-ratio: 1 / 1;
-    border-radius: 25px;
+    float: left;
+        width: 20vw;
+        height: 20vw;
     object-fit: cover;
+    border-radius: 2vw;
 }
 
 .description{
@@ -63,4 +64,9 @@ img {
 #restauraunt-name{
     
     font-weight: normal
+}
+#logo {
+    height: auto;
+    width: auto;
+    float: none;
 }
